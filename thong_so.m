@@ -6,7 +6,7 @@
 clear; clc; close all;
  
 %% 0. THONG SO
-P.d1 = 50;  P.a2 = 119;  P.a3 = 113;  P.a4 = 150;
+P.d1 = 103;  P.a2 = 119;  P.a3 = 113;  P.a4 = 150;
 phi_tool  = -pi/2;                       % dau hut chi xuong
 omega_max = 200;                         % deg/s - gioi han bo gioi han chuyen dong
 lim = deg2rad([-90 90; 0 120; -135 0; -150 -30]);   % q1..q4 (SUA theo lap rap that)
